@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanEase</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body> 
+    <div class="container">
+        <div class="navbar">
+            <img src="Images/coin-199889_1280.jpg" class="coin">
+            <nav>
+                <ul id="indiancoinlist">
+                    <li><a href="">Loan Option</a></li>
+                    <li><a href="">Blog Post</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Apply Now</a></li>
+
+
+
+                </ul>
+                 </nav>
+            <img src="Images/indian-coin-5113017_1280.jpg" class="indiancoin" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>LoanEase</h2>
+                <h3>We support your financial needs</h3>
+                <p>(A loan process easy for you)</p>
+                <h4>Absolutely free of cost</h4>
+                <button type="button">Join Us<img src="Images/arrow.png"></button>
+
+
+            </div>
+            <div class="col-2">
+                <img src="Images/indianrupeered.avif" class="money">
+                <div class="colorbox"></div>
+            </div>
+
+        </div>
+        <div class="social-links">
+            <img src="Images/fb.png">
+            <img src="Images/ig.png">
+            <img src="Images/tw.png">
+        </div>
+    </div>
+
+    <script>
+        var indiancoin = document.getElementById("indiancoinlist");
+        indiancoinlist.style.maxHeight="0px";
+        function togglemenu(){
+            if(indiancoinlist.style.maxHeight=="0px")
+            {
+                indiancoinlist.style.maxHeight="130px";
+            }
+            else
+            {
+                indiancoinlist.style.maxHeight="0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
